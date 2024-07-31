@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Monitor",
+  "version": "1.0",
+  "description": "Reports browser activity to some external source.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "exclude_matches": ["*://*skillsamurai*", "*://*codekingdoms*"]
+    }
+  ]
+}
