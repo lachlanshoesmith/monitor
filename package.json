@@ -1,0 +1,19 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/monitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-types": "^0.1.297"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

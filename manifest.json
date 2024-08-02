@@ -5,6 +5,7 @@
   "description": "Reports browser activity to some external source.",
   "content_scripts": [
     {
+      "js": ["dist/monitor.js"],
       "matches": ["<all_urls>"],
       "all_frames": true,
       "exclude_matches": ["*://*skillsamurai*", "*://*codekingdoms*"]
